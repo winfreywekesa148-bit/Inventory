@@ -13,4 +13,7 @@ function addProduct(products, product) {
     products.push(product); // adds a new product to the array
 }
 
-
+// updateProductName
+function updateProductName(products, newName) {
+    products[0] = newName; // gives new name
+}
