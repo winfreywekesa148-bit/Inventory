@@ -17,3 +17,8 @@ function addProduct(products, product) {
 function updateProductName(products, newName) {
     products[0] = newName; // gives new name
 }
+
+// removeLastProduct
+function removeLastProduct(products) {
+    products.pop(products); // removes the last product
+}
